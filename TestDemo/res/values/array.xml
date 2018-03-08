@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="main_adapter_item_name">
+        <item>压力测试</item>
+        <item>日志监听</item>
+        <item>传感器测试</item>
+        <item>拷贝测试</item>
+    </string-array>
+    <string-array name="main_adapter_item_value">
+        <item>StressTest</item>
+        <item>LogSave</item>
+        <item>SensorTest</item>
+        <item>CopyTest</item>
+    </string-array>
+    
+</resources>

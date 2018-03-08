@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8000">
+    
+    <TextView 
+        android:id="@+id/tvtest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="测试TextView"
+        android:layout_centerHorizontal="true"
+        android:textColor="#D55144"
+        android:textSize="36sp"/>
+     <TextView 
+        android:id="@+id/tvtest2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="测试TextView"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:textColor="#D55144"
+        android:textSize="36sp"
+        android:visibility="invisible"/>
+    <LinearLayout
+        android:id="@+id/ll_drag"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:background="#58C0FB"
+	    android:gravity="center"
+	    android:orientation="horizontal" >
+	    
+	    <ImageView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:src="@android:drawable/ic_menu_camera"/>
+	    
+	    <TextView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="#000"
+	        android:textSize="18sp"
+	        android:text="相机"/>
+
+	</LinearLayout>
+	
+</RelativeLayout>
+
