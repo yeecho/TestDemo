@@ -5,6 +5,7 @@ import com.yuanye.testdemo.R;
 import com.yuanye.testdemo.utils.LogUtil;
 
 import android.app.Service;
+import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;

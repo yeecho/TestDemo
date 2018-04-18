@@ -1,7 +1,9 @@
 package com.yuanye.testdemo.utils;
 
+import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileReader;
 import java.io.IOException;
 import java.nio.MappedByteBuffer;
 import java.nio.channels.FileChannel;
@@ -330,6 +332,17 @@ public class DataUtil {
             e.printStackTrace();
         }
         return "";
+    }
+    
+    public static String getNodeString(String path) {
+        String prop = "";// Ä¬ÈÏÖµ
+        try {
+            BufferedReader reader = new BufferedReader(new FileReader(path));
+            prop = reader.readLine();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return prop;
     }
 
 }
