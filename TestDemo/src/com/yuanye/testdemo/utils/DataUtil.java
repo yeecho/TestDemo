@@ -334,7 +334,7 @@ public class DataUtil {
         return "";
     }
     
-    public static String getNodeString(String path) {
+	public static String getNodeString(String path) {
         String prop = "";// д╛хож╣
         try {
             BufferedReader reader = new BufferedReader(new FileReader(path));
