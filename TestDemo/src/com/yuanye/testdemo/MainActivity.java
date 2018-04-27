@@ -73,7 +73,7 @@ public class MainActivity extends Activity implements OnItemClickListener{
 				intent.setClassName("com.cghs.stresstest","com.cghs.stresstest.StressTestActivity");
 			}catch(Exception e){
 				e.printStackTrace();
-				Toast.makeText(this, "Î´ÕÒµ½Ñ¹Á¦²âÊÔapk", Toast.LENGTH_SHORT).show();
+				Toast.makeText(this, "æ²¡æœ‰æ‰¾åˆ°åŽ‹åŠ›æµ‹è¯•apk", Toast.LENGTH_SHORT).show();
 			}
 		}else if (key.equals("LogSave")) {
 			intent.setClass(this, LogSaveActivity.class);
@@ -83,6 +83,8 @@ public class MainActivity extends Activity implements OnItemClickListener{
 			intent.setClass(this, SensorActivity.class);
 		}else if (key.equals("CopyTest")) {
 			intent.setClass(this, CopyTestActivity.class);
+	    }else if (key.equals("VibrateTest")) {
+			intent.setClass(this, VibrateTestActivity.class);
 	    }
 		startActivity(intent);
 	}

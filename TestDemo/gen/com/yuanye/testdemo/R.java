@@ -37,19 +37,26 @@ public final class R {
         public static final int xiaojj=0x7f020004;
     }
     public static final class id {
-        public static final int action_settings=0x7f0a000c;
-        public static final int copy_state=0x7f0a000a;
-        public static final int cpu_state=0x7f0a000b;
+        public static final int action_settings=0x7f0a0013;
+        public static final int copy_state=0x7f0a0011;
+        public static final int count=0x7f0a000c;
+        public static final int cpu_state=0x7f0a0012;
+        public static final int exit=0x7f0a000e;
         public static final int humidity=0x7f0a0007;
+        public static final int interval=0x7f0a000b;
         public static final int ll_drag=0x7f0a0003;
         public static final int lv_main=0x7f0a0005;
+        public static final int start=0x7f0a000d;
         public static final int switch_copytest=0x7f0a0000;
         public static final int switch_logsave=0x7f0a0004;
         public static final int temprature=0x7f0a0006;
-        public static final int tv_test_name=0x7f0a0008;
+        public static final int time=0x7f0a000a;
+        public static final int total_count=0x7f0a0009;
+        public static final int total_time=0x7f0a0008;
+        public static final int tv_test_name=0x7f0a000f;
         public static final int tvtest=0x7f0a0001;
         public static final int tvtest2=0x7f0a0002;
-        public static final int xhj=0x7f0a0009;
+        public static final int xhj=0x7f0a0010;
     }
     public static final class layout {
         public static final int activity_copytest=0x7f030000;
@@ -57,9 +64,10 @@ public final class R {
         public static final int activity_logsave=0x7f030002;
         public static final int activity_main=0x7f030003;
         public static final int activity_sensor=0x7f030004;
-        public static final int item_main_adapter=0x7f030005;
-        public static final int window_copytest=0x7f030006;
-        public static final int window_logsave=0x7f030007;
+        public static final int activity_vibratetest=0x7f030005;
+        public static final int item_main_adapter=0x7f030006;
+        public static final int window_copytest=0x7f030007;
+        public static final int window_logsave=0x7f030008;
     }
     public static final class menu {
         public static final int main=0x7f090000;

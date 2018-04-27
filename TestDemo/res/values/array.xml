@@ -5,12 +5,14 @@
         <item>日志监听</item>
         <item>传感器测试</item>
         <item>拷贝测试</item>
+        <item>震动测试</item>
     </string-array>
     <string-array name="main_adapter_item_value">
         <item>StressTest</item>
         <item>LogSave</item>
         <item>SensorTest</item>
         <item>CopyTest</item>
+        <item>VibrateTest</item>
     </string-array>
     
 </resources>
